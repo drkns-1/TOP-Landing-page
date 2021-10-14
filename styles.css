@@ -1,0 +1,125 @@
+* {
+    /* border: solid black 1px; */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    padding: 0 40px 0 40px;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #363535;
+    color: white;
+}
+.right ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex: 1;
+}
+.left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+}
+
+li, a {
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    color: white;
+
+}
+
+.hero {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 80px;
+    gap: 120px;
+}
+
+img {
+    max-width: 30%;
+    border-radius: 16px;
+}
+
+button {
+    padding: 8px 32px;
+    background-color: #24bd9a;
+    border: none;
+    border-radius: 4px;
+}
+
+.feature-cards {
+    padding: 40px 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+
+}
+
+
+.feature-cards div {
+    border-radius: 16px;
+    background-color: #eeeeee;
+    padding: 16px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+}
+
+.quote-block {
+    padding: 80px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+.quote-block div {
+    flex: 1;
+    max-width: 400px;
+}
+
+.quote-block p {
+    text-align: end;
+}
+
+.cta-block {
+    background-color: white;
+    padding: 40px 300px; 
+
+}
+
+.cta-content {
+    padding: 32px; 
+    border-radius: 16px;
+    max-height: 600px;
+    background-color: #eeeeee;
+    color: #363535;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer {
+    text-align: center;
+    color: #eeeeee;
+    background-color: #363535;
+    padding: 16px 0;
+}
